@@ -5,15 +5,17 @@
     <title>SF Street Cleaning</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">    
     <link href="./styles/styles.css" type="text/css" rel="stylesheet"></link>
   </head>
   <body>
+    <span class="accent"><span>          
     <div class="navbar">
       <div class="container">
         <div class="title">SF Street Cleaning</div>
         <div class="nav-links">
             <li><a href="#">FAQs</a></li>
-            <li><a href="#">Submit a Question</a></li>
+            <li><a href="#">Link</a></li>
         </div>
       </div>
     </div>
@@ -21,27 +23,63 @@
     <div class="container"> 
       <div class="col-8">    
         <h2>Frequently Asked Questions</h2>
-        <h4>Who is responsible for cleaning up sidewalks?</h4>
-        <p class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n
-        isi ut aliquip ex ea commodo consequat. 
-        </p>
-        <h4>Do they actually clean?</h4>
-        <p class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n
-        isi ut aliquip ex ea commodo consequat. 
-        </p>
-        <h4>Will I get a ticket if I park in a zone during posted hours after the street sweeper has gone by?</h4>
-        <p class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n
-        isi ut aliquip ex ea commodo consequat. 
-        </p>
-        <h4>How does the city determine which streets/neighborhood get serviced?</h4>
-        <p class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n
-        isi ut aliquip ex ea commodo consequat. 
-        </p>
-      </div>         
-    </div>       
 
-    <footer>     
-    </footer>
+        <button class="accordion"><h4>Who is responsible for cleaning up sidewalks?</h4></button>
+        <div class="panel"> 
+          <p class="answer">SF Public Works reigns cleans about 90% of San Francisco streets with mechanical sweepers. We cover 150,000 curb miles and remove 25,000 tons of litter and debris every year. 
+          </p>
+        </div>
+        
+        <button class="accordion"><h4>Do they actually clean?</h4></button>
+        <div class="panel"> 
+          <p class="answer">Generally, we sweep residential streets weekly or twice per month and sweeps commercial areas at least once per week. Mechanical sweepers remove litter from your neighborhood and shopping corridors and also prevent grime and pollutants from entering the City's combined sewer system and therefore reduces the amount of pollutants entering the San Francisco bay and Pacific Ocean!
+          </p>
+        </div>
+
+        <button class="accordion"><h4>Will I get a ticket if I park in a zone during posted hours after the street sweeper has gone by?</h4></button>
+        <div class="panel"> 
+          <p class="answer">Maybe...In order to successfully sweep our streets, residents must move their cars and property owners must make sure the tree in front of their home is trimmed up to 14 feet.
+          </p>
+        </div>
+        
+        <button class="accordion"><h4>How does the city determine which streets/neighborhood get serviced?</h4></button>
+        <div class="panel"> 
+          <p class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n
+              isi ut aliquip ex ea commodo consequat. 
+          </p>
+        </div>
+      </div>  
+
+      <div class="col-8">    
+          <h2>Contact Us</h2>
+          <form class="contact-form">
+            <div className="form_element">
+              <label for="fullname">Full Name</label>
+              <input type="text" name="fullname" class="short">
+            </div>
+
+            <div className="form_element">
+              <label for="email">Email</label>
+              <input type="text" name="email" class="short">
+            </div>
+
+            <div className="form_element">
+              <label for="phone">Phone Number</label>
+              <input type="text" name="phone" class="short">
+            </div>
+
+            <div className="form_element">
+              <label for="category">Category</label>
+              <input type="text" name="category">
+            </div>
+            <div className="form_element">
+              <label for="message">Message</label>
+              <input type="textarea" name="message">
+            </div>
+            </form>
+      </div>       
+    </div>       
+    <script src="main.js"></script>
   </body>
     
 </html>
