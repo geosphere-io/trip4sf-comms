@@ -12,41 +12,41 @@
     <span class="accent"><span>          
     <div class="navbar">
       <div class="nav-container">
-        <a class="title">SF Street Cleaning</a>
+        <a class="title" href="index.php">SF Street Cleaning</a>
         <div class="nav-links">
-            <li><a href="index.html">FAQs</a></li>
-            <li><a href="survey.html">Survey</a></li>
-            <li><a href="petition.html">Petition</a></li>
+            <li><a href="index.php">FAQs</a></li>
+            <li><a href="survey.php">Survey</a></li>
+            <li><a href="petition.php">Petition</a></li>
         </div>
       </div>
     </div> 
 
-    <div class="wrapper"> 
+    <div class="wrapper light"> 
       <div class="container"> 
-        <h1 class="light">Survey</h1>
-        <form class="contact-form" action="#" method="post">
-          <div class="form_element">
-            <label for="fullname">Full Name</label>
-            <input type="text" name="fullname" class="short">
+        <h1>Survey</h1>
+        <form class="contact-form" action="submit_survey.php" method="post">
+        <div class="form_element">
+            <label for="name">Full Name</label>
+            <input type="text" name="name" class="short">
           </div>
 
           <div class="form_element">
             <label for="address">Address</label>
-            <input type="text" name="address1">
-            <input type="text" name="address2">
+            <input type="text" name="address_line_1">
+            <input type="text" name="address_line_2">
           </div>
 
           <div class="form_element">
             <label for="satisfaction">How satisfied are you?</label>
-            <select name="satisfaction">
+            <select name="satisfaction_level">
               <option value="very">Very</option>
               <option value="somewhat">Somewhat</option>
               <option value="notatall">Not at all</option>
             </select>
           </div>
           <div class="form_element">
-            <label for="comment">Comment</label>
-            <textarea name="comment" rows="4" cols="50"></textarea>
+            <label for="message">Message</label>
+            <textarea name="message" rows="4" cols="50"></textarea>
           </div>
           <button>Submit</button>
         </form>

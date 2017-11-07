@@ -10,10 +10,10 @@ h1 {
   line-height: 40px;
   font-size: 40px;  
   font-weight: 300;
-  margin-bottom: 40px;  
+  margin-bottom: 30px;  
 }
 
-h1.light {
+h1.dark {
   color: #ffffff;
 }
 
@@ -41,6 +41,11 @@ a:hover {
   text-decoration: underline;
 }
 
+img {
+  width: 700px;
+  margin: auto auto 60px auto;
+}
+
 ul {
   list-style: none;
   padding: 15px;
@@ -63,7 +68,7 @@ li {
 .container {
   width: 980px;
   margin: auto;
-  padding: 80px 0;
+  padding: 60px 0;
 }
 
 .wrapper {
@@ -72,6 +77,14 @@ li {
   color: #ffffff;
   margin: auto;
   padding-bottom: 50px;
+}
+
+.light {
+  width: 100%;
+  background-color: #ffffff;
+  color: #2a2a2a;
+  margin: auto;
+  padding-bottom: 50px;  
 }
 
 .accent {
@@ -113,6 +126,10 @@ li {
 .title:hover {
   color: #00c0f1;
   text-decoration: none;
+}
+
+.summary {
+  margin-bottom: 30px;
 }
 
 .answer {
@@ -161,7 +178,7 @@ label {
   display: block;
 }
 
-select {
+.dark select {
   height: 42px;  
   width: 290px;
   color: #ffffff;
@@ -172,6 +189,25 @@ select {
   padding: 0 20px;
   font-size: 14px;
   cursor: pointer;
+}
+
+.light select {
+  height: 42px;  
+  width: 290px;
+  border: 1px solid #dddddd;
+  color: #2a2a2a;
+  background: transparent;
+  border-radius: 4px;
+  border: 1px #f1f1f1 solid;
+  margin: 5px 30px 30px 0;
+  padding: 0 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.light input, textarea {
+  border: 1px solid #dddddd;
+  color: #2a2a2a;
 }
 
 div.panel {

@@ -12,17 +12,25 @@
     <span class="accent"><span>          
     <div class="navbar">
       <div class="nav-container">
-        <a class="title">SF Street Cleaning</a>
+        <a class="title" href="index.php">SF Street Cleaning</a>
         <div class="nav-links">
-            <li><a href="index.html">FAQs</a></li>
-            <li><a href="survey.html">Survey</a></li>
-            <li><a href="petition.html">Petition</a></li>
+            <li><a href="index.php">FAQs</a></li>
+            <li><a href="survey.php">Survey</a></li>
+            <li><a href="petition.php">Petition</a></li>
         </div>
       </div>
     </div>
 
     <div class="container"> 
       <div class="col-8">    
+        <h1>Overview</h1>
+        <p class="summary">
+          The cleaning operations are performed by the Department of Public Works. Most of the residential streets are cleaned once a week. If you notice that your street is really dirty, you can request a cleaning <a href="petition.php">here</a>. 
+          If you believe that the problem is recurring, call up DPW at 311 and they will provide you with details on how to get the service to be regular. 
+          It is DPW's policy that if there's human liquid or solid waste on a street or a sidewalk, they will perform the street cleaning.
+        </p>
+        <img src="sweeper.png"/>
+
         <h1>Frequently Asked Questions</h1>
 
         <button class="accordion"><h4>How do those sweepers work?</h4></button>
@@ -69,13 +77,13 @@
       </div>   
     </div>    
 
-    <div class="wrapper"> 
+    <div class="wrapper dark"> 
       <div class="container"> 
-        <h1 class="light">Contact Us</h1>
-        <form class="contact-form" action="#" method="post">
+        <h1 class="dark">Contact Us</h1>
+        <form class="contact-form" action="submit_general_message.php" method="post">
           <div class="form_element">
-            <label for="fullname">Full Name</label>
-            <input type="text" name="fullname" class="short">
+            <label for="name">Full Name</label>
+            <input type="text" name="name" class="short">
           </div>
 
           <div class="form_element">
