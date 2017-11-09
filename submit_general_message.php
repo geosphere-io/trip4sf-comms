@@ -1,5 +1,5 @@
 <?php
-header('Location: index.php');
+header('Location: thankyou.php');
 include 'dbconnect.php';
 
 $name = $_POST['name'];

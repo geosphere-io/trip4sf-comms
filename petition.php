@@ -33,7 +33,7 @@
   
             <div class="form_element">
               <label for="address">Address</label>
-              <input type="text" name="address_line_1">
+              <input type="text" class="connected" name="address_line_1">
               <input type="text" name="address_line_2">
             </div>
   

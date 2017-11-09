@@ -159,6 +159,10 @@ input, textarea {
   font-weight: 300;
 }
 
+.connected {
+  margin-bottom: 10px;
+}
+
 textarea {
   height: 120px;
   width: 580px;
