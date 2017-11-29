@@ -29,7 +29,7 @@
           If you believe that the problem is recurring, call up DPW at 311 and they will provide you with details on how to get the service to be regular. 
           It is DPW's policy that if there's human liquid or solid waste on a street or a sidewalk, they will perform the street cleaning.
         </p>
-        <img src="sweeper.png"/>
+        <iframe class="iframe" width="600" height="400" src="https://www.youtube.com/embed/EyBCOwHqsO0?rel=0" frameborder="0" allowfullscreen></iframe>
 
         <h1>Frequently Asked Questions</h1>
 
